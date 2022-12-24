@@ -5,3 +5,4 @@ protobuf>=3.0; sys_platform == 'darwin'
 pysnmp>=4.3.4
 requests>=2.1.0
 Twisted>0.15.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
